@@ -6,4 +6,11 @@
 
 body {
   font-family: "Inter", sans-serif;
+  /* font-family: "Open Sans", sans-serif; */
+}
+
+@theme {
+  /* Mengganti font sans bawaan Tailwind menjadi Open Sans */
+  --font-opensans: "Open Sans", sans-serif;
+  --font-playwrite: "Playwrite CA Guides", cursive;
 }
